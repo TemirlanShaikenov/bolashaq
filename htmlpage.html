@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bolashaq</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+
+
+	
+	<div id="mainMenu3">
+	<div id="rectangleForMiniLogo2">
+	<a href="index.html"><img src="image/miniLogo.png" id="miniLogo"></a>
+	</div>
+	<a href="htmlpage.html"><img src="image/htmlLogo.png" id="htmlLogo"></a>
+	<a href="csspage.html"><img src="image/cssLogo.png" id="cssLogo"></a>
+	<a href="jspage.html"><img src="image/java-scriptLogo.png" id="java-scriptLogo"></a>
+	<a href="gamespage.html"><img src="image/gamesLogo.png" id="gamesLogo"></a>
+	<a href="ratingpage.html"><img src="image/ratingLogo.png" id="ratingLogo"></a>
+	<a href="helppage.html"><img src="image/helpLogo.png" id="helpLogo"></a>
+</div>
+
+
+
+<div id="htmlPage">
+<div id="headerTop"></div>
+			<a href="index.html"><img src="image/logoBolashaq.png" id="logoBolashaq" style="z-index: 1; margin-left: -70px;"></a>
+			<ul class="ul-main">
+				<li class="li-main"><a href="aboutuspage.html" class="a-main">О компании</a></li>
+				<li class="li-main">
+					<select id="selectMain">
+						<option value="russian" class="optionMain">Русский</option>
+						<option value="kazak" class="optionMain">Казахский</option>
+					</select>
+				</li>
+				<li class="li-main">
+					
+					<button id="changeColor" onclick="changeColorFirst()" style="border: none;">Изменить фон</button>
+					
+				</li>
+				<li class="li-main">
+					<a href="profile.html" id="profileMain">Профиль</a>
+				</li>
+			</ul>
+
+
+
+
+
+<div id="backgroundBoxOfTopics"></div>
+<a href="htmlpage.html" id="oneTextOfHtml">1. Вступление</a>
+<img src="image/openBookMark.png" id="openBookMarkOne">
+<!--
+<a href="htmlpage.html" id="tworTextOfHtml">2. Основы</a>
+<img src="image/openBookMark.png" id="openBookMarkTwor">
+
+<a href="htmlpage.html" id="threerTextOfHtml">3. Элементы</a>
+<img src="image/openBookMark.png" id="openBookMarkThreer">
+
+<a href="htmlpage.html" id="fourrTextOfHtml">4. Аттрибуты</a>
+<img src="image/openBookMark.png" id="openBookMarkFourr">
+
+<a href="htmlpage.html" id="fiverTextOfHtml">5. Заголовки</a>
+<img src="image/openBookMark.png" id="openBookMarkFiver">
+
+<a href="htmlpage.html" id="sixrTextOfHtml">6. Стили</a>
+<img src="image/openBookMark.png" id="openBookMarkSixr">
+
+<a href="htmlpage.html" id="sevenrTextOfHtml">7. Шрифты</a>
+<img src="image/openBookMark.png" id="openBookMarkSevenr">
+
+<a href="htmlpage.html" id="eigthrTextOfHtml">8. Таблицы</a>
+<img src="image/openBookMark.png" id="openBookMarkEigthr"> -->
+
+<a href="htmlpage.html" id="theoryHtmlOne">Теория</a>
+<a href="htmlpageonetest.html" id="testHtmlOne" style="text-decoration: none;">Тест</a>
+<a href="htmlpageonecode.html" id="codeHtmlOne" style="text-decoration: none;">Код</a>
+<p id="twoTextOfHtml">Урок 1. Вступление</p>
+<!--<p id="videoBox"></p>-->
+<iframe 
+src="https://www.youtube.com/embed/Sda2kF9y9Gw" id="videoBox">
+</iframe>
+
+<p id="threeTextOfHtml"><strong>Создание HTML документов</strong><br/><br/> Для того, чтобы создать HTML документ необходимо: <br/><br/>1. Открыть любой текстовый редактор (например блокнот, Notepad++ и т.д.);<br/> 2. Набрать произвольный текст и разметить его HTML тегами;<br/> 3. Cохранить файл с расширением .htm или .html. <br/><br/><strong>Структура HTML-документа</strong><br/><br/> Язык HTML следует правилам, которые содержатся в файле объявления типа документа (Document Type Definition, или DTD). DTD представляет собой XML-документ, определяющий, какие теги, атрибуты и их значения действительны для конкретного типа HTML. Для каждой версии HTML есть свой DTD.<br/><br/> DOCTYPE отвечает за корректное отображение веб-страницы браузером. DOCTYPE определяет не только версию HTML (например, html), но и соответствующий DTD-файл в Интернете.<br/><br/></p>
+
+<div id="backgroundBoxOfTopicsOne"></div>
+<p id="codeOfHtml">&lt;!DOCTYPE html&gt; &lt;!-- Объявление формата документа --&gt;<br/> &lt;html&gt; <br/> &lt;head&gt; &lt;!-- Техническая информация о документе --&gt; <br/> &lt;meta charset="UTF-8"&gt; &lt;!-- Определяем кодировку символов документа --&gt; <br/> &lt;title&gt;...&lt;/title&gt; &lt;!-- Задаем заголовок документа --&gt; <br/> &lt;link rel="stylesheet" type="text/css" href="style.css"&gt; &lt;!-- Подключаем внешнюю таблицу стилей --&gt; <br/> &lt;script src="script.js"&gt;&lt;/script&gt; &lt;!-- Подключаем сценарии --&gt; <br/> &lt;/head&gt; <br/> &lt;body&gt; &lt;!-- Основная часть документа --&gt; <br/> &lt;/body&gt; <br/> &lt;/html&gt;</p>
+
+<p id="fourTextOfHtml">Элементы, находящиеся внутри тега &lt;html&gt;, образуют дерево документа, так называемую объектную модель документа, DOM (document object model). При этом элемент &lt;html&gt; является корневым элементом. </p>
+<img src="image/treeOfHtmlOne.png" id="treeOfHtmlOne">
+<p id="fiveTextOfHtml"><strog>Предок</strog> — элемент, который заключает в себе другие элементы. На рисунке 1 предком для всех элементов является &lt;html&gt;. В то же время элемент &lt;body&gt; является предком для всех содержащихся в нем тегов: &lt;h1&gt;, &lt;p&gt;, &lt;span&gt;, &lt;nav&gt; и т.д.<br/><br/><strong> Потомок </strong>— элемент, расположенный внутри одного или более типов элементов. Например, &lt;body&gt; является потомком &lt;html&gt;, а элемент &lt;p&gt; является потомком одновременно для &lt;body&gt; и &lt;html&gt;.<br/><br/><strong> Родительский элемент</strong> — элемент, связанный с другими элементами более низкого уровня, и находящийся на дереве выше их. На рисунке &lt;html&gt; является родительским только для &lt;head&gt; и &lt;body&gt;. Тег &lt;p&gt; является родительским только для &lt;span&gt;.<br/><br/><strong> Дочерний элемент</strong> — элемент, непосредственно подчиненный другому элементу более высокого уровня. На рисунке только элементы &lt;h1&gt;, &lt;h2&gt;, &lt;p&gt; и &lt;nav&gt; являются дочерними по отношению к &lt;body&gt;. Сестринский элемент — элемент, имеющий общий родительский элемент с рассматриваемым, так называемые элементы одного уровня. На рисунке &lt;head&gt; и &lt;body&gt; — элементы одного уровня, так же как и элементы &lt;h1&gt;, &lt;h2&gt; и &lt;p&gt; являются между собой сестринскими.</p>
+
+<button id="oneButtonOfHtml" style="border: none;">Добавить урок в Избранное</button>
+<button id="twoButtonOfHtml" style="border: none;">Пройти тест по уроку</button>
+
+<img src="image/arrowLeft.png" id="arrowLeft">
+<a href="" id="leftLesson">Предыдущий урок</a>
+<a href="" id="rightLesson">Следующий урок</a>
+<img src="image/arrowRight.png" id="arrowRight">
+
+
+<p id="linkOfHtmlSocialSite">Поделиться в социальных сетях:</p>
+<img src="image/linkVk.png" id="linkVk">
+<img src="image/linkFacebook.png" id="linkFacebook">
+<img src="image/linkTwitter.png" id="linkTwitter">
+<div id="horizontalLineHtml"></div>
+
+<p id="commentsOfHtml">Комментарии:</p>
+<div id="commentsBoxHtml">
+	<form id="formHtmlPageOne">
+	<textarea cols="140" rows="4" id="textareaHtmlPageOne" required></textarea><br/>
+	<input type="submit"  id="submitHtmlPageOne" required>
+	<p id="firstCommentName">Temirlan</p>
+	<hr id="hrLine">
+	<p id="firstComment">Круто! Все понятно!</p>
+
+
+</form>
+</div>
+<p id="helpPageOfHtml">Остались вопросы? Обратитесь за <a href="helppage.html" style="color: #1EE3CF;"> Помощью</a> к нашим преподавателям</p>
+
+
+
+
+
+
+			
+
+</div>
+
+
+
+<footer id="footerOfHtmlPageOne">
+
+
+<img src="image/logoBolashaq.png" id="logoBolashaqFooterHtml">
+<p id="sixTextOfHtml">Доступная электронная учеба</p>
+
+<p id="sevenTextOfHtml">HTML</p>
+<p id="eightTextOfHtml">CSS</p>
+<p id="nineTextOfHtml">JavaScript</p>
+<p id="tenTextOfHtml">© Copyright 2020. All rights reserved </p>
+
+<div id="backgroundBoxOfMail"></div>	
+<img src="image/mailLogo.png" id="mailLogoFooterHtml">
+<p id="elevenTextOfHtml">bolashaq2020@gmail.com</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/animate.css">
+ <!--<script type="text/javascript" src="js/registerLogin.js"></script>-->
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <script type="text/javascript" src="js/jq.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+<script >
+	new fullpage('#fullPage',{
+		autoScrolling: true
+	})
+
+</script>
+
+<script>
+	document.getElementById('submitHtmlPageOne').addEventListener('click', submitForHtmlPageOne);
+	function submitForHtmlPageOne(){
+	let textH = document.getElementById('textareaHtmlPageOne').value;
+	let lessonH = 1;
+	var sendToken = 'Token '+ window.localStorage.getItem('tokenSave');
+console.log(sendToken);
+
+	fetch('http://64.227.120.78:8000/api/lesson-comments/',{
+		method: 'POST',
+		headers: {
+			'Accept': 'application/json, text/plain, */*',
+			'Content-type': 'application/json',
+			'Authorization' : sendToken
+		},
+		body:JSON.stringify({text:textH, lesson:lessonH})
+	})
+	.then((res) => res.json())
+	.then((data) => console.log('ddd'))
+
+
+	document.getElementById('textareaHtmlPageOne').value = '';
+}
+</script>
+
+</body>
+</html>

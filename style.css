@@ -1,0 +1,3385 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+/*Main page*/
+#fullPage{
+	
+	
+}
+
+.section{
+	background: #0D1E27;
+}
+
+#headerTop{
+	position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 0px;
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.1;
+}
+
+#logoBolashaq{
+	position: absolute;
+width: 164px;
+height: 26px;
+left: 150px;
+top: 22px;
+}
+
+.ul-main{
+
+	display: inline-flex;
+	list-style: none;
+
+}
+.li-main{
+	font-family: Roboto;
+	margin-right: 20px;
+}
+
+.a-main{
+	position: absolute;
+width: 113px;
+height: 23px;
+left: 860px;
+top: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+#selectMain {font-family: Roboto;
+	position: absolute;
+width: 84px;
+height: 20px;
+left: 980px;
+font-weight: 400px;
+font-size: 15px;
+top: 25px;
+
+	background-color: rgba(250,250,250,0);
+	color: white;
+	border: none;
+
+}
+
+.optionMain{
+	background: rgba(0,0,0,1);
+}
+
+
+
+#changeColor{
+	/* gradient_button */
+	position: absolute;
+	left: 1100px;
+	top: 23px;
+font-family: Roboto;
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+font-style: normal;
+font-weight: 400px;
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+text-transform: lowercase;
+width: 130px;
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+#firstComment{
+	position: absolute;
+	top: 190px;
+	left: 20px;
+font-style: normal;
+font-weight: 400px;
+font-size: 15px;
+line-height: 26px;
+color: #FAFAFA;
+}
+
+#firstCommentName{
+	position: absolute;
+	top: 140px;
+font-style: normal;
+font-weight: 500px;
+font-size: 26px;
+line-height: 26px;
+color: #FAFAFA;
+}
+
+#hrLine{
+	position: absolute;
+	top: 185px;
+	width: 1000px;
+}
+
+
+#profileMain{font-family: Roboto;
+	position: absolute;
+width: 93px;
+height: 23px;
+left: 1250px;
+top: 23px;
+color: white;
+margin-top: 3px;
+}
+
+#mainMenu{
+	position: absolute;
+	display: none;
+	width: 7.3%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	background: #E9F0F2;
+	
+
+}
+
+#mainMenu2{
+	position: fixed;
+	display: static;
+	width: 7.5%;
+	height: 120%;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	background: #E9F0F2;
+
+}
+
+
+#mainMenu3{
+	position: fixed;
+	display: static;
+	width: 6.4%;
+	height: 120%;
+	left: -10px;
+	top: 0px;
+	z-index: 999;
+	background: #E9F0F2;
+
+}
+
+
+#rectangleForMiniLogo{
+	position: absolute;
+	width: 100px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+
+	background: #F9FEFF;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+#rectangleForMiniLogo2{
+	position: absolute;
+	width: 85px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+
+	background: #F9FEFF;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+#miniLogo{
+	position: absolute;
+	width: 42px;
+	height: 35px;
+	left: 29px;
+	top: 22px;
+	
+}
+
+#htmlLogo{
+position: absolute;
+width: 74px;
+height: 58px;
+left: 13px;
+top: 94px;
+
+}
+
+#cssLogo{
+position: absolute;
+width: 74px;
+height: 59px;
+left: 13px;
+top: 183px;
+
+}
+
+#java-scriptLogo{
+position: absolute;
+width: 74px;
+height: 54px;
+left: 13px;
+top: 273px;
+
+}
+
+#gamesLogo{
+position: absolute;
+width: 74px;
+height: 54px;
+left: 12px;
+top: 366px;
+
+}
+
+#ratingLogo{
+position: absolute;
+width: 74px;
+height: 60px;
+left: 13px;
+top: 458px;
+
+}
+#ratingStudents{
+	position: absolute;
+	top: 250px;
+	left: 750px;
+	text-transform: uppercase;
+	color: #1EE3CF;
+	word-spacing: 50px;
+
+}
+
+#helpLogo{
+position: absolute;
+width: 74px;
+height: 54px;
+left: 13px;
+top: 549px;
+
+}
+
+
+#formHelp{
+	position: relative;
+	top: 140px;
+	left: 200px;
+}
+
+#submitHelp{
+	background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 21px;
+text-align: center;
+border:0;
+color: white;
+}
+
+#submitHtmlPageOne{
+	background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 35px;
+width: 150px;
+text-align: center;
+border:0;
+color: white;
+margin-top: 20px;
+float: right;
+}
+
+
+#leftBar{
+	z-index: 999;
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	left: 12px;
+	top: 335px;
+}
+
+#logoBolashaq{
+	position: absolute;
+	width: 164px;
+	height: 26px;
+	left: 150px;
+	top: 35px;
+}
+
+
+#learnOnline{
+	position: absolute;
+	display:flex;
+	width: 500px;
+	height: 112px;
+	left: 228px;
+	top: 136px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 46px;
+	color: #FAFAFA;
+}
+
+#learnDescription{
+	position: absolute;
+	display: inline-flex;
+	width: 521px;
+	height: 84px;
+	left: 230px;
+	top: 325px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 24px;
+	line-height: 28px;
+
+	/* белый */
+
+	color: #FAFAFA;
+}
+
+#startNow{
+	
+position: absolute;
+width: 370px;
+height: 54px;
+left: 230px;
+top: 517px;
+
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+/* natural_shadow */
+
+box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#catHello{
+	position: absolute;
+	width: 360px;
+height: 451px;
+left: 917px;
+top: 138px;
+}
+
+
+
+/*section 2*/
+#main2png{
+	
+	padding-top: 50px;
+	padding-left: 220px;
+}
+
+.lineOne{
+	position: absolute;
+width: 635px;
+height: 4px;
+left: 675px;
+top: 250px;
+}
+
+.textOneMain{
+	position: absolute;
+width: 84px;
+height: 124px;
+left: 677px;
+top: 150px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 124px;
+/* identical to box height */
+
+text-align: center;
+
+/* бирюза */
+
+color: #1EE3CF;
+opacity: 0.6;
+}
+
+.textTwoMain{
+	position: absolute;
+width: 521px;
+height: 33px;
+left: 786px;
+top: 260px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+.textTwoMain2{
+	position: absolute;
+width: 521px;
+height: 33px;
+left: 786px;
+top: 235px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+.textTwoMain3{
+	position: absolute;
+width: 521px;
+height: 33px;
+left: 786px;
+top: 240px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+.lineTwo{
+
+position: absolute;
+width: 635px;
+height: 4px;
+left: 676px;
+top: 370px;
+}
+
+.textThreeMain{
+position: absolute;
+width: 84px;
+height: 124px;
+left: 693px;
+top: 280px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 124px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+opacity: 0.2;
+}
+
+.textFourMain{
+	position: absolute;
+width: 521px;
+height: 99px;
+left: 786px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.2;
+}
+
+
+/*section 3*/
+#main3png{
+	
+    width: 409px;
+    height: 401px;
+    padding-top: 50px;
+	padding-left: 200px;
+}
+
+.lineThree{
+
+position: absolute;
+width: 635px;
+height: 4px;
+left: 676px;
+top: 120px;
+}
+
+.textFiveMain{
+position: absolute;
+width: 84px;
+height: 124px;
+left: 693px;
+top: 20px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 124px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+opacity: 0.2;
+}
+
+.textSixMain{
+	position: absolute;
+width: 521px;
+height: 99px;
+left: 786px;
+top: 130px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.2;
+}
+
+.textSixMain2{
+	position: absolute;
+width: 521px;
+height: 99px;
+left: 786px;
+top: 110px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.2;
+}
+
+
+
+/* Section 4*/
+#main4png{
+	
+    width: 409px;
+    height: 401px;
+    padding-top: 20px;
+	padding-left: 160px;
+}
+
+
+
+/* Section 5*/
+#main5png{
+	
+    width: 503px;
+height: 403px;
+	padding-left: 90px;
+}
+
+/* Section 6*/
+#main6png{
+	
+    width: 457px;
+height: 408px;
+	padding-left: 130px;
+}
+
+
+/*Registration Page*/
+
+#registrationPage{
+	background: #0D1E27;
+	height: 150vh;
+	position: relative;
+}
+
+
+
+#registrationForm{
+	position: relative;
+	background: #031B2E;
+	border-radius: 16px;
+	z-index: 1;
+	width: 933px;
+    height: 597px;
+    margin:auto;
+    top: 100px;
+}
+
+#loginForm{
+	position: relative;
+	background: #031B2E;
+	border-radius: 16px;
+	
+	width: 933px;
+    height: 597px;
+    margin:auto;
+    top: -497px;
+    
+}
+
+#firstPart{
+	width: 333px;
+    height: 597px;
+
+	background: #E9F0F2;
+	border-radius: 16px 0 0 16px;
+}
+
+#catRegister{
+	position: absolute;
+	width:270px;
+	height: 300px;
+left: 3%;
+right: 68.21%;
+top: 27.47%;
+bottom: 27.3%;
+
+}
+
+#nameForRegister{
+position: absolute;
+width: 147px;
+height: 26px;
+left: 87px;
+top: 29px;
+
+}
+
+#logoForRegister{
+	position: absolute;
+width: 42px;
+height: 35px;
+left: 32px;
+top: 24px;
+}
+
+#secondPart{
+
+}
+
+#registerPage{
+	position: absolute;
+width: 144px;
+height: 28px;
+left: 418px;
+top: 49px;
+background: transparent;
+border:none;
+border-bottom: 2px solid #1EE3CF;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#loginPage{
+	position: absolute;
+width: 144px;
+height: 28px;
+left: 418px;
+top: 49px;
+background: transparent;
+border:none;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* белый */
+color: #FAFAFA;
+opacity: 0.5;
+}
+
+#textEnterRegistrationPage{
+position: absolute;
+width: 68px;
+height: 28px;
+left: 613px;
+top: 49px;
+background: transparent;
+border:none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.6;
+}
+#textEnterLoginPage{
+position: absolute;
+width: 68px;
+height: 28px;
+left: 613px;
+top: 49px;
+background: transparent;
+border:none;
+border-bottom: 2px solid #1EE3CF;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+::placeholder {
+  color: white;
+
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: white;
+}
+
+#fullName{
+
+position: absolute;
+width: 420px;
+height: 44px;
+left: 409px;
+top: 117px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+#date{
+position: absolute;
+width: 230px;
+height: 44px;
+left: 410px;
+top: 185px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+#email{
+position: absolute;
+width: 420px;
+height: 44px;
+left: 410px;
+top: 253px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#emailLogin{
+position: absolute;
+width: 420px;
+height: 44px;
+left: 410px;
+top: 195px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+#password{
+position: absolute;
+width: 420px;
+height: 44px;
+left: 410px;
+top: 321px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#passwordLogin{
+position: absolute;
+width: 420px;
+height: 44px;
+left: 410px;
+top: 263px;
+
+background: rgba(255, 255, 255, 0.3);
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+#submitButton{
+position: absolute;
+width: 416px;
+height: 44px;
+left: 410px;
+top: 397px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+
+/* белый */
+
+color: #FAFAFA;
+
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 16px;
+}
+#submitButtonLogin{
+position: absolute;
+width: 416px;
+height: 44px;
+left: 410px;
+top: 347px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+
+/* белый */
+
+color: #FAFAFA;
+
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 16px;
+}
+
+#textEnterGoogle{
+position: absolute;
+width: 120px;
+height: 28px;
+left: 556px;
+top: 473px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#textEnterGoogleLogin{
+position: absolute;
+width: 120px;
+height: 28px;
+left: 556px;
+top: 423px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+#logoGoogle{
+	margin-top: 1px;
+	}
+
+#EnterGoogle{
+
+	position: absolute;
+width: 261px;
+height: 36px;
+left: 488px;
+top: 533px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+/* белый */
+
+background: #FAFAFA;
+border-radius: 16px;
+}
+#EnterGoogleLogin{
+
+	position: absolute;
+width: 261px;
+height: 36px;
+left: 488px;
+top: 493px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+/* белый */
+
+background: #FAFAFA;
+border-radius: 16px;
+}
+
+
+
+
+#loginPage{
+
+}
+
+
+
+
+/* profile page */
+#profilePage{
+	background: #0D1E27;
+	height: 130vh;
+	position: relative;
+}
+
+
+
+#doskaProfileText{
+	position: absolute;
+width: 235px;
+height: 28px;
+left: 156px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#profileForText{
+	position: absolute;
+width: 883px;
+height: 151px;
+left: 156px;
+top: 134px;
+
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.3;
+border-radius: 16px;
+}
+
+#firstTextProfile{
+	position: absolute;
+width: 380px;
+height: 33px;
+left: 188px;
+top: 138px;
+z-index: 1;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+color: #FAFAFA;
+}
+
+#secondTextProfile{
+	position: absolute;
+width: 433px;
+height: 47px;
+left: 188px;
+top: 194px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#catForProfile{
+	position: absolute;
+	width:200px;
+	height: 240px;
+left: 700px;
+top: 70px;
+ 
+}
+
+#profileForTextTwo{
+
+position: absolute;
+width: 662px;
+height: 241px;
+left: 156px;
+top: 317px;
+
+/* темно_синий */
+
+background: #FAFAFA;
+opacity: 0.1;
+/* natural_shadow */
+
+box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25)
+border-radius: 16px;
+}
+
+#profileForTextThree{
+	position: absolute;
+width: 189px;
+height: 241px;
+left: 850px;
+top: 317px;
+
+/* темно_синий */
+
+background: #FAFAFA;
+opacity: 0.1;
+/* natural_shadow */
+
+box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25)
+border-radius: 16px;
+}
+
+#profileForTextFour{
+	position: absolute;
+width: 886px;
+height: 198px;
+left: 153px;
+top: 590px;
+
+/* темно_синий */
+
+background: #FAFAFA;
+opacity: 0.1;
+/* natural_shadow */
+
+box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25)
+border-radius: 16px;
+}
+
+#profileForTextFive{
+	position: absolute;
+width: 254px;
+height: 824px;
+left: 1095px;
+top: -10px;
+
+background: #E9F0F2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#threeTextProfile{
+	position: absolute;
+width: 150px;
+height: 21px;
+left: 1140px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+
+/* темно_синий */
+
+color: #031B2E;
+}
+
+#logoutLogo{
+	position: absolute;
+width: 20px;
+height: 20px;
+left: 1300px;
+top: 18px;
+}
+
+#photoProfile{
+	position: absolute;
+width: 130px;
+height: 130px;
+left: 1150px;
+top: 107px;
+}
+
+#fourTextProfile{
+	position: absolute;
+width: 232px;
+height: 33px;
+left: 1130px;
+top: 233px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* темно_синий */
+
+color: #031B2E;
+}
+
+#fiveTextProfile{
+position: absolute;
+width: 129px;
+height: 16px;
+left: 1118px;
+top: 318px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* фиолтеовый */
+
+color: #6B48FF;
+}
+
+#sixTextProfile{
+position: absolute;
+width: 187px;
+height: 44px;
+left: 1119px;
+top: 342px;
+
+/* белый */
+
+background: #FAFAFA;
+border-radius: 16px;
+}
+
+#sevenTextProfile{
+position: absolute;
+width: 117px;
+height: 16px;
+left: 1119px;
+top: 410px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* фиолтеовый */
+
+color: #6B48FF;
+}
+
+#eightTextProfile{
+position: absolute;
+width: 187px;
+height: 44px;
+left: 1119px;
+top: 434px;
+
+/* белый */
+
+background: #FAFAFA;
+border-radius: 16px;
+}
+
+#nineTextProfile{
+position: absolute;
+width: 152px;
+height: 16px;
+left: 1118px;
+top: 502px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* фиолтеовый */
+
+color: #6B48FF;
+}
+
+#tenTextProfile{
+position: absolute;
+width: 145px;
+height: 45px;
+left: 1118px;
+top: 506px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#elevenTextProfile{
+position: absolute;
+width: 187px;
+height: 36px;
+left: 1119px;
+top: 585px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+
+/* белый */
+
+color: #FAFAFA;
+/* темно_синий */
+
+background: #031B2E;
+border-radius: 16px;
+}
+
+#twelveTextProfile{
+position: absolute;
+width: 187px;
+height: 44px;
+left: 1119px;
+top: 742px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* белый */
+
+color: #FAFAFA;
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;	
+}
+
+#thirteenTextProfile{
+position: absolute;
+width: 161px;
+height: 33px;
+left: 188px;
+top: 341px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#fourteenTextProfile{
+	position: absolute;
+width: 138px;
+height: 79px;
+left: 876px;
+top: 300px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 79px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#fifteenTextProfile{
+	position: absolute;
+width: 132px;
+height: 63px;
+left: 878px;
+top: 405px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#sixteenTextProfile{
+	position: absolute;
+width: 235px;
+height: 33px;
+left: 185px;
+top: 614px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+
+/* html page */
+#htmlPage{
+	background: #0D1E27;
+	height: 585vh;
+	position: relative;
+}
+
+
+#backgroundBoxOfTopics{
+	position: absolute;
+width: 200px;
+height: 740px;
+left: 60px;
+top: 0px;
+
+/* темно_синий */
+
+background: #031B2E;
+}
+
+#oneTextOfHtml{
+	position: absolute;
+width: 138px;
+height: 23px;
+left: 86px;
+top: 101px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkOne{
+	position: absolute;
+left: 225px;
+
+top: 105px;
+}
+
+#tworTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkTwor{
+	
+}
+
+#threerTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkThreer{
+	
+}
+
+#fourrTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkFourr{
+	
+}
+
+#fiverTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkFiver{
+	
+}
+
+#sixrTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkSixr{
+	
+}
+
+#sevenrTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkSevenr{
+	
+}
+
+#eigthrTextOfHtml{
+	
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#openBookMarkEigthr{
+	
+}
+
+
+#theoryHtmlOne{
+position: absolute;
+width: 68px;
+height: 23px;
+left: 300px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+
+
+#theoryHtmlOneTest{
+position: absolute;
+width: 68px;
+height: 23px;
+left: 300px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* бирюза */
+
+color: #FAFAFA;
+}
+
+
+
+#testHtmlOne{
+position: absolute;
+width: 43px;
+height: 23px;
+left: 408px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#codeHtmlOne{
+position: absolute;
+width: 36px;
+height: 23px;
+left: 491px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#twoTextOfHtml{
+	position: absolute;
+width: 264px;
+height: 33px;
+left: 280px;
+top: 91px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#videoBox{
+	position: absolute;
+width: 795px;
+height: 450px;
+left: 300px;
+top: 208px;
+
+background: #C4C4C4;
+}
+
+#threeTextOfHtml{
+	position: absolute;
+width: 1060px;
+height: 386px;
+left: 270px;
+top: 772px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#backgroundBoxOfTopicsOne{
+	position: absolute;
+width: 1060px;
+height: 301px;
+left: 270px;
+top: 1220px;
+
+/* белый */
+
+background: #FAFAFA;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+#codeOfHtml{
+	position: absolute;
+width: 909px;
+height: 253px;
+left: 286px;
+top: 1230px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* темно_синий */
+
+color: #031B2E;
+}
+
+#fourTextOfHtml{
+	position: absolute;
+width: 1060px;
+height: 42px;
+left: 270px;
+top: 1553px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#treeOfHtmlOne{
+	position: absolute;
+width: 589px;
+height: 308px;
+left: 505px;
+top: 1650px;
+}
+
+#fiveTextOfHtml{
+	position: absolute;
+width: 1060px;
+height: 391px;
+left: 270px;
+top: 2031px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400px;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#oneButtonOfHtml{
+position: absolute;
+width: 297px;
+height: 44px;
+left: 539px;
+top: 2478px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* темно_синий */
+
+color: #031B2E;
+/* белый */
+
+background: #FAFAFA;
+border-radius: 16px;
+}
+
+#twoButtonOfHtml{
+	position: absolute;
+width: 234px;
+height: 44px;
+left: 860px;
+top: 2478px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+}
+
+#arrowLeft{
+position: absolute;
+
+left: 311px;
+top: 2607px;
+}
+
+#leftLesson{
+position: absolute;
+width: 246px;
+height: 33px;
+left: 341px;
+top: 2607px;
+text-decoration: none;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#rightLesson{
+position: absolute;
+width: 228px;
+height: 33px;
+left: 1091px;
+top: 2607px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#arrowRight{
+position: absolute;
+
+left: 1310px;
+top: 2607px;
+}
+
+#linkOfHtmlSocialSite{
+position: absolute;
+width: 314px;
+height: 23px;
+left: 290px;
+top: 2673px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#linkVk{
+position: absolute;
+top: 2680px;
+left: 600px;
+}
+
+#linkFacebook{
+position: absolute;
+top: 2680px;
+left: 650px;
+}
+
+#linkTwitter{
+position: absolute;
+top: 2680px;
+left: 700px;
+}
+
+#horizontalLineHtml{
+	position: absolute;
+width: 1076px;
+height: 0px;
+left: 292px;
+top: 2735px;
+
+/* белый */
+
+border: 1px solid #FAFAFA;
+}
+
+#commentsOfHtml{
+position: absolute;
+width: 227px;
+height: 33px;
+left: 300px;
+top: 2767px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#commentsBoxHtml{
+position: absolute;
+width: 1000px;
+height: 500px;
+left: 300px;
+top: 2840px;
+border: 1px solid transparent;
+}
+
+#helpPageOfHtml{
+	position: absolute;
+width: 474px;
+height: 16px;
+left: 623px;
+top: 3368px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#footerOfHtmlPageOne{
+	position: absolute;
+	width: 1180px;
+height: 186px;
+left: 170px;
+top: 3450px;
+
+/* темно_синий */
+
+background: #031B2E;
+}
+
+#logoBolashaqFooterHtml{
+position: absolute;
+width: 164px;
+height: 26px;
+left: 100px;
+top: 40px;
+}
+
+#sixTextOfHtml{
+position: absolute;
+width: 200px;
+height: 16px;
+left: 100px;
+top: 65px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.6;
+}
+
+#sevenTextOfHtml{
+position: absolute;
+width: 44px;
+height: 23px;
+left: 382px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#eightTextOfHtml{
+position: absolute;
+width: 37px;
+height: 23px;
+left: 510px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#nineTextOfHtml{
+position: absolute;
+width: 94px;
+height: 23px;
+left: 620px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#tenTextOfHtml{
+position: absolute;
+width: 232px;
+height: 16px;
+left: 410px;
+top: 140px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+opacity: 0.8;
+}
+
+#backgroundBoxOfMail{
+position: absolute;
+width: 202px;
+height: 44px;
+left: 890px;
+top: 40px;
+
+/* белый */
+
+border: 1px solid #FAFAFA;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+#mailLogoFooterHtml{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 900px;
+top: 52px;
+}
+
+#elevenTextOfHtml{
+	position: absolute;
+width: 168px;
+height: 16px;
+left: 930px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+/*code one html*/
+#htmlPageCode{
+	background: #0D1E27;
+	height: 300vh;
+	position: relative;
+}
+
+#footerOfHtmlPageOneCode{
+	position: absolute;
+	left: 170px;
+	top: 1670px;
+	background: #031B2E;
+	width: 1180px;
+height: 186px;
+}
+
+#backgroundOneCodeHtml{
+position: absolute;
+width: 1027px;
+height: 90px;
+left: 300px;
+top: 110px;
+
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.1;
+border-radius: 16px;
+}
+
+#textHtmlPageOneCode{
+	position: absolute;
+width: 995px;
+height: 46px;
+left: 316px;
+top: 112px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+
+#textHtmlPageOneCodeTwo{
+position: absolute;
+width: 995px;
+height: 23px;
+left: 300px;
+top: 276px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+#backgroundOneCodeHtmlTask{
+	position: relative;
+width: 860px;
+height: 80px;
+left: 300px;
+top: 290px;
+
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.9;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+#inputTaskCode{
+	position: absolute;
+width: 120px;
+height: 26px;
+left: 20px;
+top: 25px;
+
+background: #FFFFFF;
+}
+#buttonCodeOne{
+	position: absolute;
+width: 132px;
+height: 21px;
+left: 839px;
+top: 440px;
+background-color: transparent;
+border:none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+text-decoration-line: underline;
+
+/* белый */
+
+color: #FAFAFA;
+}
+#buttonCodeTwo{
+	position: absolute;
+width: 177px;
+height: 44px;
+left: 983px;
+top: 427px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+border:none;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+}
+
+
+
+
+#wrongCodeOneHtmlOne{
+	position: relative;
+width: 860px;
+height: 80px;
+left: 300px;
+top: 210px;
+z-index: -1;
+
+
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.9;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+#rightCodeOneHtmlOne{
+	position: relative;
+width: 860px;
+height: 80px;
+left: 300px;
+top: 130px;
+
+z-index: -1;
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.9;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+
+
+#closeOneHtmlOneCode{
+position: absolute;
+top: 25px;
+left: 10px;
+}
+
+#closeText{
+	position: absolute;
+width: 439px;
+height: 23px;
+left: 64px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* gradient_WRONG */
+
+color: linear-gradient(180deg, #DD1A8E 0%, #CD3FDF 100%);
+}
+
+#tickOneHtmlOneCode{
+position: absolute;
+top: 25px;
+left: 10px;
+}
+
+#tickText{
+	position: absolute;
+width: 439px;
+height: 23px;
+left: 64px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* gradient_WRONG */
+
+color: linear-gradient(180deg, #DD1A8E 0%, #CD3FDF 100%);
+}
+
+
+
+/*test one html*/
+
+
+#htmlPageTest{
+	background: #0D1E27;
+	height: 340vh;
+	position: relative;
+}
+
+#footerOfHtmlPageOneTest{
+	position: absolute;
+	left: 170px;
+	top: 1930px;
+	background: #031B2E;
+	width: 1180px;
+height: 186px;
+}
+
+#helpAndShareTestHtml{
+	position: relative;
+	left: 300px;
+	top: 1200px;
+
+}
+
+#shareTestCodeHtml{
+	position: absolute;
+width: 314px;
+height: 23px;
+left: 30px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#iconsTestCodeHtml{
+	position: absolute;
+width: 314px;
+height: 23px;
+left: 350px;
+top: 41px;
+}
+
+#textTestCodeHtml{
+	position: absolute;
+width: 474px;
+height: 16px;
+left: 350px;
+top: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#contentHtmlTestOne{
+	position: relative;
+	border: 1px solid transparent;
+	width: 1000px;
+	height: 500px;
+	left: 300px;
+	top: 100px;
+}
+
+#testOfHtmlOne{
+	position: absolute;
+width: 380px;
+height: 33px;
+top: -30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#divForBackgroundOfHtmlTestOne{
+position: absolute;
+width: 1000px;
+height: 110px;
+top: 40px;
+
+/* темно_синий */
+
+background: #031B2E;
+opacity: 0.3;
+border-radius: 16px;
+}
+
+#testOfHtmlTwo{
+	position: absolute;
+width: 995px;
+height: 46px;
+top: 50px;
+left: 5px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+.questionOfHtmlTestOne{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+.answerOfHtmlTestOne{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#checkTestOfHtmlOne{
+	position: absolute;
+width: 125px;
+height: 44px;
+left: 467px;
+top: 1477px;
+
+/* gradient_button */
+
+background: linear-gradient(180deg, #4776E6 0%, #8E54E9 100%);
+border-radius: 16px;
+
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+/*Rating page*/
+
+#podium{
+position: absolute;
+width: 352px;
+height: 100px;
+left: 214px;
+top: 320.92px;
+}
+
+#coronaFirst{
+position: absolute;
+width: 45px;
+height: 25px;
+left: 375px;
+top: 200px;
+}
+
+#coronaSecond{
+position: absolute;
+width: 45px;
+height: 25px;
+left: 260px;
+top: 235.92px;
+}
+
+#coronaThird{
+position: absolute;
+width: 45px;
+height: 28px;
+left: 488px;
+top: 236.92px;
+
+}
+
+#personFirst{
+position: absolute;
+width: 80px;
+height: 80px;
+left: 357px;
+top: 232.92px;
+}
+
+#personSecond{
+position: absolute;
+width: 80px;
+height: 80px;
+left: 244px;
+top: 268.92px;
+}
+
+#personThird{
+	position: absolute;
+width: 80px;
+height: 80px;
+left: 470px;
+top: 272.92px;
+}
+
+#ratingMainText{
+	position: absolute;
+width: 107px;
+height: 33px;
+left: 156px;
+top: 96px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#theBestStudents{
+	position: absolute;
+width: 461px;
+height: 28px;
+left: 649px;
+top: 153px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#backgroundOfRating{
+	position: absolute;
+width: 509px;
+height: 272px;
+left: 649px;
+top: 205px;
+
+/* темно_синий */
+
+background: #FAFAFA;
+opacity: 0.2;
+border-radius: 16px;
+}
+
+#backgroundOfRating2{
+	position: absolute;
+width: 509px;
+height: 272px;
+left: 140px;
+top: 546px;
+
+/* темно_синий */
+
+background: #FAFAFA;
+opacity: 0.2;
+border-radius: 16px;
+}
+
+
+#nameSurnameRating{
+	position: absolute;
+width: 106px;
+height: 16px;
+left: 673px;
+top: 207px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#scoreRating{
+	position: absolute;
+width: 113px;
+height: 16px;
+left: 1021px;
+top: 207px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#motivationRating{
+	position: absolute;
+width: 461px;
+height: 37px;
+left: 673px;
+top: 489px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FAFAFA;
+}
+
+#yourAims{
+	position: absolute;
+width: 161px;
+height: 33px;
+left: 156px;
+top: 558px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #1EE3CF;
+}
+
+#htmlRating{
+position: absolute;
+width: 49px;
+height: 21px;
+left: 193px;
+top: 626px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#cssRating{
+position: absolute;
+width: 34px;
+height: 21px;
+left: 209px;
+top: 671px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#jsRating{
+position: absolute;
+width: 86px;
+height: 21px;
+left: 156px;
+top: 716px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#htmlRatingN{
+position: absolute;
+width: 100%;
+height: 21px;
+left: 293px;
+top: 626px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#cssRatingN{
+position: absolute;
+width: 100%;
+height: 21px;
+left: 293px;
+top: 671px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#jsRatingN{
+	position: absolute;
+width: 100%;
+height: 21px;
+left: 293px;
+top: 716px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#htmlRatingA{
+position: absolute;
+width: 87px;
+height: 16px;
+left: 471px;
+top: 646px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#cssRatingA{
+position: absolute;
+width: 87px;
+height: 16px;
+left: 471px;
+top: 691px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#jsRatingA{
+	position: absolute;
+width: 87px;
+height: 16px;
+left: 471px;
+top: 738px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+
+
+
+/*company page aboutus*/
+#aboutusPage{
+	background: #0D1E27;
+	height: 120vh;
+	position: relative;
+}
+
+#textCompanyPageOne{
+position: absolute;
+width: 158px;
+height: 33px;
+left: 156px;
+top: 96px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#backgroundCompanyPageOne{
+position: absolute;
+width: 1164px;
+height: 168px;
+left: 156px;
+top: 185px;
+
+/* белый */
+
+background: #FAFAFA;
+opacity: 0.3;
+border-radius: 16px;
+}
+
+#textCompanyPageTwo{
+position: absolute;
+width: 793px;
+height: 33px;
+left: 188px;
+top: 179px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#textCompanyPageThree{
+position: absolute;
+width: 901px;
+height: 63px;
+left: 188px;
+top: 236px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#catForCompanyPageOne{
+
+position: absolute;
+height: 250px;
+width: 210px;
+top: 100px;
+left: 1100px;
+}
+
+#textCompanyPageFour{
+position: absolute;
+width: 268px;
+height: 33px;
+left: 156px;
+top: 385px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* бирюза */
+
+color: #1EE3CF;
+}
+
+#photo1Company{
+position: absolute;
+width: 120px;
+height: 120px;
+left: 216px;
+top: 480px;
+}
+
+#photo2Company{
+	position: absolute;
+width: 120px;
+height: 120px;
+left: 457px;
+top: 480px;
+}
+#photo3Company{
+	position: absolute;
+width: 120px;
+height: 120px;
+left: 698px;
+top: 480px;
+}
+#photo4Company{
+	position: absolute;
+width: 120px;
+height: 120px;
+left: 939px;
+top: 480px;
+}
+#photo5Company{
+	position: absolute;
+width: 120px;
+height: 120px;
+left: 1180px;
+top: 480px;
+}
+
+
+#textCompanyPageNameOne{
+	position: absolute;
+width: 177px;
+height: 21px;
+left: 188px;
+top: 624px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#textCompanyPageNameTwo{
+	position: absolute;
+width: 177px;
+height: 21px;
+left: 434px;
+top: 624px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageNameThree{
+	position: absolute;
+width: 164px;
+height: 21px;
+left: 681px;
+top: 624px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageNameFour{
+	position: absolute;
+width: 176px;
+height: 21px;
+left: 911px;
+top: 624px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageNameFive{
+	position: absolute;
+width: 143px;
+height: 21px;
+left: 1168px;
+top: 624px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+
+#textCompanyPageJobOne{
+	
+position: absolute;
+width: 124px;
+height: 21px;
+left: 214px;
+top: 653px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+#textCompanyPageJobTwo{
+	position: absolute;
+width: 68px;
+height: 21px;
+left: 483px;
+top: 653px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageJobThree{
+	position: absolute;
+width: 126px;
+height: 21px;
+left: 695px;
+top: 653px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageJobFour{
+	
+position: absolute;
+width: 126px;
+height: 21px;
+left: 936px;
+top: 653px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+#textCompanyPageJobFive{
+	position: absolute;
+width: 177px;
+height: 21px;
+left: 1151px;
+top: 653px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* белый */
+
+color: #FAFAFA;
+}
+
+
+/*Game page*/
+
+#gameOne{
+	position: absolute;
+	top: 220px;
+	left: 150px;
+	width: 1100px;
+	height: 600px;
+}
+
+#games{
+	position: relative;
+	top: 140px;
+	left: 180px;
+}
+
+.aGames{
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+
+}
+
+
+#textareaHtmlPageOne{
+	border-radius: 16px;
+	opacity: 80%;
+}

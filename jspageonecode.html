@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bolashaq</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+
+
+	
+	<div id="mainMenu3">
+	<div id="rectangleForMiniLogo2">
+	<a href="index.html"><img src="image/miniLogo.png" id="miniLogo"></a>
+	</div>
+	<a href="htmlpage.html"><img src="image/htmlLogo.png" id="htmlLogo"></a>
+	<a href="csspage.html"><img src="image/cssLogo.png" id="cssLogo"></a>
+	<a href="jspage.html"><img src="image/java-scriptLogo.png" id="java-scriptLogo"></a>
+	<a href="gamespage.html"><img src="image/gamesLogo.png" id="gamesLogo"></a>
+	<a href="ratingpage.html"><img src="image/ratingLogo.png" id="ratingLogo"></a>
+	<a href="helppage.html"><img src="image/helpLogo.png" id="helpLogo"></a>
+</div>
+
+
+
+<div id="htmlPageCode">
+<div id="headerTop"></div>
+			<a href="index.html"><img src="image/logoBolashaq.png" id="logoBolashaq" style="z-index: 1; margin-left: -70px;"></a>
+			<ul class="ul-main">
+				<li class="li-main"><a href="aboutuspage.html" class="a-main">О компании</a></li>
+				<li class="li-main">
+					<select id="selectMain">
+						<option value="russian" class="optionMain">Русский</option>
+						<option value="kazak" class="optionMain">Казахский</option>
+					</select>
+				</li>
+				<li class="li-main">
+					
+					<button id="changeColor" onclick="changeColorFirst()" style="border: none;">Изменить фон</button>
+					
+				</li>
+				<li class="li-main">
+					<a href="profile.html" id="profileMain">Профиль</a>
+				</li>
+			</ul>
+
+
+
+
+<div id="backgroundBoxOfTopics"></div>
+<a href="jspage.html" id="oneTextOfHtml">1. Вступление</a>
+<img src="image/openBookMark.png" id="openBookMarkOne">
+<a href="jspage.html" id="theoryHtmlOneTest" style="text-decoration: none;">Теория</a>
+<a href="jspageonetest.html" id="testHtmlOne" style="text-decoration: none;">Тест</a>
+<a href="jspageonecode.html" id="codeHtmlOne" style="color: #1EE3CF; border-bottom: 1px solid #1EE3CF;">Код</a>
+
+
+
+<div id="backgroundOneCodeHtml"></div>
+<p id="textHtmlPageOneCode">Раздел Код поможет тебе лучше закрепить новый материал. Заполни пробелы и проверь, насколько хорошо ты справился. Получай баллы и соревнуйся с друзьями.</p>
+
+<p id="textHtmlPageOneCodeTwo">1. Какой тег отвечает за закрытие body, напиши</p>
+<div id="backgroundOneCodeHtmlTask">
+<input type="text" name="<body>"  id="inputTaskCode"></div>
+<button id="buttonCodeOne" onclick="giveAnswer()">Узнать ответ</button>
+<button id="buttonCodeTwo" onclick="checkAnswer()">Проверить ответ</button>
+
+
+<div id="wrongCodeOneHtmlOne">
+	<img src="image/close.png" id="closeOneHtmlOneCode">
+	<p id="closeText">Упс! Ответ неправильный. <span style="color: blue;" onclick="closeBanner()">Попробуй еще раз.</span></p>
+</div>
+<div id="rightCodeOneHtmlOne">
+	<img src="image/tick.png" id="tickOneHtmlOneCode">
+	<p id="tickText">Поздравляем! Ответ правильный <strong style="color:#1EE3CF;" onclick="closeBanner()"> +5 баллов</strong></p>
+</div>
+
+
+
+
+<div id="helpAndShareTestHtml">
+<p id="shareTestCodeHtml">Поделиться в социальных сетях:</p>
+<div id="iconsTestCodeHtml">
+<img src="image/linkVk.png" id="">
+<img src="image/linkFacebook.png" id="">
+<img src="image/linkTwitter.png" id="">
+</div>
+
+<p id="textTestCodeHtml">Остались вопросы? Обратитесь за <a href="helppage.html" style="color: #1EE3CF;"> Помощью</a> к нашим преподавателям</p>
+</div>
+
+
+
+			
+
+</div>
+
+
+
+<footer id="footerOfHtmlPageOneCode">
+
+
+<img src="image/logoBolashaq.png" id="logoBolashaqFooterHtml">
+<p id="sixTextOfHtml">Доступная электронная учеба</p>
+
+<p id="sevenTextOfHtml">HTML</p>
+<p id="eightTextOfHtml">CSS</p>
+<p id="nineTextOfHtml">JavaScript</p>
+<p id="tenTextOfHtml">© Copyright 2020. All rights reserved </p>
+
+<div id="backgroundBoxOfMail"></div>	
+<img src="image/mailLogo.png" id="mailLogoFooterHtml">
+<p id="elevenTextOfHtml">bolashaq2020@gmail.com</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/animate.css">
+ <script type="text/javascript" src="js/registerLogin.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <script type="text/javascript" src="js/jq.js"></script>
+  <script type="text/javascript" src="js/codejs.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+<script >
+	new fullpage('#fullPage',{
+		autoScrolling: true
+	})
+
+</script>
+</body>
+</html>

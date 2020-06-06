@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bolashaq</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body onload="ratingLoad()">
+
+
+	
+	<div id="mainMenu2">
+	<div id="rectangleForMiniLogo">
+	<a href="index.html"><img src="image/miniLogo.png" id="miniLogo"></a>
+	</div>
+	<a href="htmlpage.html"><img src="image/htmlLogo.png" id="htmlLogo"></a>
+	<a href="csspage.html"><img src="image/cssLogo.png" id="cssLogo"></a>
+	<a href="jspage.html"><img src="image/java-scriptLogo.png" id="java-scriptLogo"></a>
+	<a href="gamespage.html"><img src="image/gamesLogo.png" id="gamesLogo"></a>
+	<a href="ratingpage.html"><img src="image/ratingLogo.png" id="ratingLogo"></a>
+	<a href="helppage.html"><img src="image/helpLogo.png" id="helpLogo"></a>
+</div>
+
+
+
+<div id="registrationPage">
+<div id="headerTop"></div>
+			<a href="index.html"><img src="image/logoBolashaq.png" id="logoBolashaq"></a>
+			<ul class="ul-main">
+				<li class="li-main"><a href="aboutuspage.html" class="a-main">О компании</a></li>
+				<li class="li-main">
+					<select id="selectMain">
+						<option value="russian" class="optionMain">Русский</option>
+						<option value="kazak" class="optionMain">Казахский</option>
+					</select>
+				</li>
+				<li class="li-main">
+					
+					<button id="changeColor" onclick="changeColorFirst()" style="border: none;">Изменить фон</button>
+					
+				</li>
+				<li class="li-main">
+					<a href="profile.html" id="profileMain">Профиль</a>
+				</li>
+			</ul>
+
+
+
+
+<p id="ratingMainText">Рейтинг</p>
+
+<img src="image/podium.png" id="podium">
+<img src="image/coronaFirst.png" id="coronaFirst">
+<img src="image/coronaSecond.png" id="coronaSecond">
+<img src="image/coronaThird.png" id="coronaThird">
+<img src="image/personFirst.png" id="personFirst">
+<img src="image/personSecond.png" id="personSecond">
+<img src="image/personThird.png" id="personThird">
+
+
+<p id="theBestStudents">Список лучших учеников</p>
+<div id="backgroundOfRating">
+	
+</div>
+<p id="ratingStudents" style="font-family: Roboto;"></p>
+<p id="nameSurnameRating">Имя Фамилия</p>
+<p id="scoreRating">Очки рейтинга</p>
+<p id="motivationRating">Тебе осталось <span style="color: #1EE3CF;" id="yourScore"> N</span> баллов до первого места, Продолжай в том же духе!</p>
+
+<div id="backgroundOfRating2"></div>
+<p id="yourAims">Твои успехи</p>
+
+<p id="htmlRating">HTML</p>
+<p id="cssRating">CSS</p>
+<p id="jsRating">JavaScript</p>
+<p id="htmlRatingN"><span id="html1a" style="color: #1EE3CF;"> 20%</span> from 100%</p>
+<p id="cssRatingN"><span id="css1a" style="color: #1EE3CF;"> 10%</span> from 100%</p>
+<p id="jsRatingN"><span id="js1a" style="color: #1EE3CF;"> 5%</span> from 100%</p>
+<a href="htmlpage.html" id="htmlRatingA">Прокачаться</a>
+<a href="csspage.html" id="cssRatingA">Прокачаться</a>
+<a href="jspage.html" id="jsRatingA">Прокачаться</a>
+
+
+
+			
+
+</div>
+
+<script type="text/javascript" src="js/registerLogin.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+ <script type="text/javascript" src="js/registerLogin.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <script type="text/javascript" src="js/jq.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+<script >
+	new fullpage('#fullPage',{
+		autoScrolling: true
+	})
+
+</script>
+</body>
+</html>
